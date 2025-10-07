@@ -4,7 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Portfolio Details - iPortfolio Bootstrap Template</title>
+  <title>Index </title>
+  
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -15,7 +16,7 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Poppins&family=Raleway&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -26,9 +27,17 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
-<body class="portfolio-details-page">
+<body class="index-page">
 
   <header id="header" class="header dark-background d-flex flex-column">
     <i class="header-toggle d-xl-none bi bi-list"></i>
@@ -38,137 +47,334 @@
     </div>
 
     <a href="index.html" class="logo d-flex align-items-center justify-content-center">
-      <h1 class="sitename">Alex Smith</h1>
+      <!-- Uncomment the line below if you also wish to use an image logo -->
+      <!-- <img src="assets/img/logo.png" alt=""> -->
+      <h1 class="sitename">Kamali</h1>
     </a>
 
     <div class="social-links text-center">
-      <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-      <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+     
+      <a href="https://www.linkedin.com/in/kamali-sde?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="linkedin"><i class="bi bi-linkedin"></i></a>
     </div>
 
     <nav id="navmenu" class="navmenu">
       <ul>
-        <li><a href="#hero"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
         <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
-        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
-        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
-        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
+        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Project</a></li>
+        </li>
         <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
       </ul>
     </nav>
+
   </header>
 
   <main class="main">
 
-    <!-- Page Title -->
-    <div class="page-title dark-background">
-      <div class="container d-lg-flex justify-content-between align-items-center">
-        <h1 class="mb-2 mb-lg-0">Portfolio Details</h1>
-        <nav class="breadcrumbs">
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li class="current">Portfolio Details</li>
-          </ol>
-        </nav>
-      </div>
-    </div>
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
 
-    <!-- Portfolio Details Section -->
-    <section id="portfolio-details" class="portfolio-details section">
+      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in" class="">
+
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="row gy-4">
+        <h2>Kamali S M</h2>
+        <p>I'm <span class="typed" data-typed-items="Web Developer">Data analyst</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+      </div>
 
-          <div class="col-lg-8">
-            <div class="portfolio-details-slider swiper init-swiper">
+    </section><!-- /Hero Section -->
 
-              <script type="application/json" class="swiper-config">
-                {
-                  "loop": true,
-                  "speed": 600,
-                  "autoplay": {
-                    "delay": 5000
-                  },
-                  "slidesPerView": "auto",
-                  "pagination": {
-                    "el": ".swiper-pagination",
-                    "type": "bullets",
-                    "clickable": true
-                  }
-                }
-              </script>
+    <!-- About Section -->
+    <section id="about" class="about section">
 
-              <div class="swiper-wrapper align-items-center">
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/product-1.jpg" alt="Weather App Project">
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/product-2.jpg" alt="To-Do App">
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/product-3.jpg" alt="Image Gallery">
-                </div>
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About</h2>
+        <p>I’m a tech enthusiast with a passion for both web development and data analytics.
+    With experience in building responsive, user-friendly websites using HTML, CSS, JavaScript, and frameworks like React,
+    I enjoy bringing creative ideas to life through code.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4">
+            <img src="assets/img/my-profile-img.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 content">
+            <h2>Web Developer&Data analyst.</h2>
+            <p class="fst-italic py-3">
+ </p>
+            <div class="row">
+              
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Computer Science Engineering</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>College:</strong> <span>Avinashilingam Institute for Home Science & Higher Education for Women</span></li>
+                </ul>
               </div>
-              <div class="swiper-pagination"></div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>CGPA:</strong> <span>7.98</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Coimbatore, Tamil Nadu</span></li>
+                </ul>
+              </div>
             </div>
           </div>
+        </div>
 
-          <div class="col-lg-4">
-            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
-              <h3>Project Information</h3>
+      </div>
 
-              <div class="project-info">
-                <ul>
-                  <li><strong>Category</strong>: Web Development</li>
-                  <li><strong>Project</strong>: Image Gallery with Lightbox</li>
-                  <li><strong>Description</strong>: A visually appealing image gallery that allows users to view high-resolution images in a fullscreen lightbox view. It is responsive and allows users to navigate between images using next/previous controls.</li>
-                  <li><strong>Project URL</strong>: <a href="https://example.com/image-gallery" target="_blank">https://example.com/image-gallery</a></li>
-                </ul>
+    </section><!-- /About Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Skills</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row skills-content skills-animation">
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill"><span>HTML</span> <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
-              <br>
+            </div><!-- End Skills Item -->
 
-              <div class="project-info">
-                <ul>
-                  <li><strong>Category</strong>: Web Development</li>
-                  <li><strong>Project</strong>: Weather Prediction</li>
-                  <li><strong>Description</strong>: A simple and responsive web app that displays weather forecasts for a selected location. This static version is built with HTML and CSS, with scope for adding JavaScript and live API data.</li>
-                  <li><strong>Project URL</strong>: <a href=" https://kamalisuresh.github.io/" target="_blank"> https://kamalisuresh.github.io/</a></li>
-                </ul>
+            <div class="progress">
+              <span class="skill"><span>CSS</span> <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
-              <br>
+            </div><!-- End Skills Item -->
 
-              <div class="project-info">
-                <ul>
-                  <li><strong>Category</strong>: Productivity Tool</li>
-                  <li><strong>Project</strong>: To-Do List</li>
-                  <li><strong>Description</strong>: A responsive task management application allowing users to add, delete, and mark tasks as complete. Built with Bootstrap and localStorage for persistence across sessions.</li>
-                  <li><strong>Project URL</strong>: <a href="https://example.com/todo-list" target="_blank">https://example.com/todo-list</a></li>
-                </ul>
+            <div class="progress">
+              <span class="skill"><span>JavaScript</span> <i class="val">65%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
-
+            </div><!-- End Skills Item -->
+            <div class="progress">
+              <span class="skill"><span>Blender</span> <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
             </div>
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill"><span>Python</span> <i class="val">60%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>SQL</span> <i class="val">55%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>Postgerl SQL</span> <i class="val">55%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+              </div><!-- End Skills Item -->
+            </div>
+              <div class="progress">
+              <span class="skill"><span>Flutter Flow</span> <i class="val">50%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+            
           </div>
 
         </div>
+
       </div>
-    </section><!-- /Portfolio Details Section -->
+
+    </section><!-- /Skills Section -->
+
+
+    <section id="portfolio" class="portfolio section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Projects</h2>
+       
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter=".filter-product">Projects</li>
+          </ul><!-- End Portfolio Filters -->
+<div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+  <!-- Project 1 -->
+  <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+    <div class="portfolio-content h-100">
+      <img src="assets/img/portfolio/product-1.jpg" class="img-fluid" alt="">
+      <div class="portfolio-info">
+        <h4>Project 1</h4>
+        <p>Image Gallery with Lightbox</p>
+        <a href="assets/img/portfolio/product-1.jpg" title="Product 1"
+          data-gallery="portfolio-gallery-product" class="glightbox preview-link">
+          <i class="bi bi-zoom-in"></i>
+        </a>
+        <a href="portfolio-details.html" title="More Details" class="details-link">
+          <i class="bi bi-link-45deg"></i>
+        </a>
+      </div>
+    </div>
+  </div><!-- End Portfolio Item -->
+
+  <!-- Project 2 -->
+  <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+    <div class="portfolio-content h-100">
+      <img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt="">
+      <div class="portfolio-info">
+        <h4>Project 2</h4>
+        <p>TO DO LIST</p>
+        <a href="assets/img/portfolio/product-2.jpg" title="Product 2"
+          data-gallery="portfolio-gallery-product" class="glightbox preview-link">
+          <i class="bi bi-zoom-in"></i>
+        </a>
+        <a href="portfolio-details.html" title="More Details" class="details-link">
+          <i class="bi bi-link-45deg"></i>
+        </a>
+      </div>
+    </div>
+  </div><!-- End Portfolio Item -->
+
+  <!-- Project 3 -->
+  <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+    <div class="portfolio-content h-100">
+      <img src="assets/img/portfolio/product-3.jpg" class="img-fluid" alt="">
+      <div class="portfolio-info">
+        <h4>Project 3</h4>
+        <p>Weather Prediction</p>
+        <a href="assets/img/portfolio/product-3.jpg" title="Product 3"
+          data-gallery="portfolio-gallery-product" class="glightbox preview-link">
+          <i class="bi bi-zoom-in"></i>
+        </a>
+        <a href="portfolio-details.html" title="More Details" class="details-link">
+          <i class="bi bi-link-45deg"></i>
+        </a>
+      </div>
+    </div>
+  </div><!-- End Portfolio Item -->
+
+  <!-- Project 4 -->
+  <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+    <div class="portfolio-content h-100">
+      <img src="assets/img/portfolio/product-4.png" class="img-fluid" alt="">
+      <div class="portfolio-info">
+        <h4>Project 4</h4>
+        <p>TIC-TAC-TOE</p>
+        <a href="assets/img/portfolio/product-4.png" title="Product 4"
+          data-gallery="portfolio-gallery-product" class="glightbox preview-link">
+          <i class="bi bi-zoom-in"></i>
+        </a>
+        <a href="portfolio-details.html" title="More Details" class="details-link">
+          <i class="bi bi-link-45deg"></i>
+        </a>
+      </div>
+    </div>
+  </div><!-- End Portfolio Item -->
+
+</div><!-- End row -->
+<!-- End Portfolio Item -->
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    
+
+  
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+
+            <div class="info-wrap">
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Call Us</h3>
+                  <p>+1 91 7418294912</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Us</h3>
+                  <p>kamalimeenashi@gmail.com</p>
+                </div>
+              </div><!-- End Info Item -->
+
+            </div>
+          </div>
+
+          <div class="container py-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+
+       
+
+      </div>
+    </div>
+  </div>
+
+        </div>
+
+      </div>
+      
+  
+
+
+    </section><!-- /Contact Section -->
 
   </main>
 
-  <footer id="footer" class="footer position-relative light-background">
-    <div class="container">
-      <div class="copyright text-center">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">iPortfolio</strong> <span>All Rights Reserved</span></p>
-      </div>
-      <div class="credits">
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href="https://themewagon.com">ThemeWagon</a>
-      </div>
-    </div>
-  </footer>
+  
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
-    <i class="bi bi-arrow-up-short"></i>
-  </a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->
   <div id="preloader"></div>
