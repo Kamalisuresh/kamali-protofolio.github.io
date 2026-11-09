@@ -79,11 +79,13 @@ footer{text-align:center;color:var(--muted);font-size:13px;padding:30px 5vw 50px
 .role:after{content:"|";margin-left:2px;animation:p 1s infinite}
 .lk{display:inline-block;margin-top:14px;font-size:14px;font-weight:500;color:var(--accent);text-decoration:none}.lk:hover{text-decoration:underline}
 a.card{display:block;text-decoration:none;color:inherit}
+.tl ul{margin:8px 0 0;padding-left:18px;color:var(--muted);font-size:14.5px}.tl li{margin-bottom:4px}
+.links a{display:block;margin-top:8px;font-size:14.5px;color:var(--accent);text-decoration:none;font-weight:500}.links a:hover{text-decoration:underline}
 </style>
 </head>
 <body>
 <canvas id="bg"></canvas><div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
-<nav><b>&lt;<span>KSM</span>/&gt;</b><div><a class="h" href="#about">About</a><a class="h" href="#skills">Skills</a><a href="#projects">Projects</a><a class="h" href="#experience">Experience</a><a class="h" href="#certificates">Certificates</a><a href="#contact">Contact</a></div></nav>
+<nav><b>&lt;<span>KSM</span>/&gt;</b><div><a class="h" href="#about">About</a><a class="h" href="#skills">Skills</a><a href="#projects">Projects</a><a class="h" href="#experience">Experience</a><a class="h" href="#publications">Publications</a><a class="h" href="#certificates">Certificates</a><a href="#contact">Contact</a></div></nav>
 
 <section class="hero">
 <div>
@@ -125,20 +127,39 @@ a.card{display:block;text-decoration:none;color:inherit}
 <div class="grid">
 <div class="card proj"><div class="ic">📦</div><h3>CRM Sales Order Module</h3><p>Part of a business CRM app, built with Kotlin and Compose.</p>
 <ul><li>Designed list → detail → shipments flow with reusable cards</li><li>Image viewer for courier slips and packing photos</li><li>File attach for client PO requests</li></ul>
-<div class="chips"><span class="chip">Kotlin</span><span class="chip">Compose</span><span class="chip">ViewModel</span></div><br><a class="lk" href="https://github.com/Kamalisuresh" target="_blank" rel="noopener">GitHub ↗</a></div>
+<div class="chips"><span class="chip">Kotlin</span><span class="chip">Compose</span><span class="chip">ViewModel</span></div><br><span class="lk" style="color:var(--muted);cursor:default">Company project · code is private</span></div>
 <div class="card proj"><div class="ic">🚚</div><h3>Trip &amp; Advance Payment Tracker</h3><p>Fleet app that records trips, advances and expenses on the road.</p>
 <ul><li>Moved API and storage work into Presenters for clean screens</li><li>Loaded shared lookups once to cut repeat network calls</li><li>Input validation and clear edit-mode UI states</li></ul>
-<div class="chips"><span class="chip b">Java</span><span class="chip b">Realm</span><span class="chip b">MVP</span></div><br><a class="lk" href="https://github.com/Kamalisuresh" target="_blank" rel="noopener">GitHub ↗</a></div>
+<div class="chips"><span class="chip b">Java</span><span class="chip b">Realm</span><span class="chip b">MVP</span></div><br><span class="lk" style="color:var(--muted);cursor:default">Company project · code is private</span></div>
 <div class="card proj"><div class="ic">📊</div><h3>Sales Report Dashboard</h3><p>A Power BI analytics project that turns raw sales data into decisions.</p>
 <ul><li>Interactive visuals for sales performance</li><li>Shows the data-thinking I bring to app features</li></ul>
-<div class="chips"><span class="chip">Power BI</span><span class="chip">Data analytics</span></div><br><a class="lk" href="https://github.com/Kamalisuresh" target="_blank" rel="noopener">GitHub ↗</a></div>
+<div class="chips"><span class="chip">Power BI</span><span class="chip">Data analytics</span></div><br><a class="lk" href="https://github.com/Kamalisuresh" target="_blank" rel="noopener">My GitHub ↗</a></div>
 <div class="card proj"><div class="ic">📡</div><h3>App 360 · Full Stack</h3><p>Monitoring platform for live device telemetry and alarms.</p>
 <ul><li>Dashboard with role-based access and JWT login</li><li>Kafka stream for real-time data, REST APIs in Node.js</li></ul>
-<div class="chips"><span class="chip b">React</span><span class="chip b">Node.js</span><span class="chip b">MongoDB</span><span class="chip b">Kafka</span></div><br><a class="lk" href="https://github.com/Kamalisuresh" target="_blank" rel="noopener">GitHub ↗</a></div>
+<div class="chips"><span class="chip b">React</span><span class="chip b">Node.js</span><span class="chip b">MongoDB</span><span class="chip b">Kafka</span></div><br><a class="lk" href="https://github.com/Kamalisuresh/project_app360" target="_blank" rel="noopener">View code on GitHub ↗</a></div>
 <div class="card proj"><div class="ic">🛟</div><h3>Disaster Aid Connect</h3><p>A portal for communication and resource coordination during disasters.</p>
 <ul><li>Published as a journal paper (ISSN)</li><li>Built for public safety during emergencies</li></ul>
-<div class="chips"><span class="chip">Python</span><span class="chip">SQLite</span><span class="chip">Streamlit</span></div><br><a class="lk" href="https://github.com/Kamalisuresh" target="_blank" rel="noopener">GitHub ↗</a></div>
+<div class="chips"><span class="chip">Python</span><span class="chip">SQLite</span><span class="chip">Streamlit</span></div><br><a class="lk" href="https://github.com/Kamalisuresh" target="_blank" rel="noopener">My GitHub ↗</a></div>
+<div class="card proj"><div class="ic">🌐</div><h3>Web Projects (Live)</h3><p>Small builds that sharpened my fundamentals. Open them live.</p>
+<div class="links"><a href="https://kamalisuresh.github.io/" target="_blank" rel="noopener">Weather Prediction ↗</a><a href="https://kamalisuresh.github.io/tic-tac-to/" target="_blank" rel="noopener">Tic Tac Toe Game ↗</a><a href="https://kamalisuresh.github.io/kamalisuresh_to_do_list.github.io/" target="_blank" rel="noopener">To-Do List ↗</a><a href="https://github.com/Kamalisuresh/kamalisureshimage.github.io" target="_blank" rel="noopener">Image Gallery (code on GitHub) ↗</a></div>
+<div class="chips" style="margin-top:14px"><span class="chip b">HTML</span><span class="chip b">CSS</span><span class="chip b">JavaScript</span></div></div>
 </div></section>
+
+<section id="experience" class="rv">
+<div class="eyebrow">Experience</div><h2>Where I’ve been building</h2>
+<div class="grid" style="align-items:start">
+<div class="tl">
+<div><small>Aug 2026 – Present</small><h3>Junior Android Developer</h3><p>KT Telmatic Pvt Ltd</p><ul><li>Built the Sales Order module in a Kotlin and Jetpack Compose CRM app: list, detail and shipment screens with ViewModels.</li><li>Added a PO file attachment and an image viewer for courier slips and packing photos.</li><li>Moved API calls and Realm storage into presenters in a Java trip app, and loaded bank accounts and fuel stations once.</li><li>Tested against client requirements with Postman and Chucker.</li></ul></div>
+<div><small>Dec 2025 – Jul 2026</small><h3>Software Developer</h3><p>Emote Electric (R&amp;D)</p><ul><li>Developed Android and IoT applications in Android Studio, including the UI and UX design.</li><li>Connected real-time device telemetry using MQTT and Apache Kafka.</li></ul></div>
+<div><small>May 2024</small><h3>Web Developer Intern</h3><p>KT Telmatic Pvt Ltd. Responsive pages in HTML, CSS and JavaScript.</p></div>
+</div>
+<div class="card"><h3>Also on my record</h3><p>Participated in the All India Women Hackathon (KIT). Completed the Pride Classroom Program 2024–25 (Mahindra, Naandi Foundation).</p></div>
+</div></section>
+
+<section id="publications" class="rv">
+<div class="eyebrow">Publications</div><h2>Published work</h2>
+<div class="grid"><div class="card"><h3>Disaster Aid Connect: Advanced Disaster Management Portal</h3><p>Published in an ISSN journal. A platform for communication and resource coordination during disasters.</p><div class="chips"><span class="chip">Python</span><span class="chip">SQLite</span><span class="chip">Streamlit</span></div></div></div>
+</section>
 
 <section id="certificates" class="rv">
 <div class="eyebrow">Certificates</div><h2>Learning I can show</h2>
